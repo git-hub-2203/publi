@@ -4,182 +4,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Landing Pages & Domínios</title>
+    <title>Stewart Devs | Landing Pages & Domínios</title>
     <!-- Font Awesome 6 (free icons) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Google Fonts: modern sans + subtle serif for accents -->
+    <!-- Google Fonts -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&family=Merriweather:ital@0;1&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&family=Merriweather:ital@0;1&display=swap"
         rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <!-- Hero -->
-        <div class="hero">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="#planos">Planos</a>
+                <a href="#portfolio">Portfólio</a>
+                <a href="#contato">Contato</a>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
             <div class="hero-content">
-                <h2>Programação de Landing Pages para o seu negócio</h2>
-                <p>Criamos landing pages profissionais, compramos domínios e cuidamos da manutenção. Tudo com a
-                    transparência e comunicação.</p>
-                <a href="#planos" class="btn"><i class="fas fa-rocket"></i> Ver proposta completa</a>
+                <h2>Landing pages que <span class="hero-highlight">convertem</span> e impressionam</h2>
+                <p>Criação profissional, domínio personalizado e manutenção contínua. Tenha uma presença digital forte
+                    com transparência e agilidade.</p>
+                <a href="#planos" class="btn"><i class="fas fa-calendar-check"></i> Quero minha página</a>
             </div>
             <div class="hero-image">
-                <i class="fas fa-globe"></i>
-                <i class="fas fa-code" style="font-size: 3rem; margin: 0 0.5rem;"></i>
-                <i class="fas fa-chart-line"></i>
+                <i class="fas fa-laptop-code"></i>
+                <i class="fas fa-mobile-alt"></i>
+                <i class="fas fa-chart-simple"></i>
+                <p>Design responsivo • Alta conversão</p>
             </div>
-        </div>
-        <!-- Showcase Section -->
-        <section class="showcase-section">
-            <h2>Exposição de Sites Criados</h2>
+        </section>
+
+        <!-- Portfólio Showcase -->
+        <section id="portfolio" class="showcase-section">
+            <h2><i class="fas fa-images"></i> Projetos em destaque</h2>
             <div class="scroll-container">
                 <div class="scroll-track">
                     <div class="scroll-group">
-                        <img src="image.png" alt="Site 1">
-                        <img src="image copy.png" alt="Site 2">
-                        <img src="image copy 2.png" alt="Site 3">
-                        <img src="image copy 3.png" alt="Site 4">
-                        <img src="barb.png" alt="Site 5">
-                        <img src="barb1.png" alt="Site 6">
-                        <img src="corretor.png" alt="Site 7">
+                        <img src="image.png" alt="Projeto 1">
+                        <img src="image copy.png" alt="Projeto 2">
+                        <img src="image copy 2.png" alt="Projeto 3">
+                        <img src="image copy 3.png" alt="Projeto 4">
+                        <img src="barb.png" alt="Barbearia">
+                        <img src="barb1.png" alt="Barbearia 2">
+                        <img src="corretor.png" alt="Corretor">
                     </div>
-
                     <div class="scroll-group" aria-hidden="true">
-                        <img src="image.png" alt="Site 1">
-                        <img src="image copy.png" alt="Site 2">
-                        <img src="image copy 2.png" alt="Site 3">
-                        <img src="image copy 3.png" alt="Site 4">
-                        <img src="barb.png" alt="Site 5">
-                        <img src="barb1.png" alt="Site 6">
-                        <img src="corretor.png" alt="Site 7">
+                        <img src="image.png" alt="Projeto 1">
+                        <img src="image copy.png" alt="Projeto 2">
+                        <img src="image copy 2.png" alt="Projeto 3">
+                        <img src="image copy 3.png" alt="Projeto 4">
+                        <img src="barb.png" alt="Barbearia">
+                        <img src="barb1.png" alt="Barbearia 2">
+                        <img src="corretor.png" alt="Corretor">
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Links dos Sites Criados -->
+
+        <!-- Links dos Sites -->
         <section class="sites-links-section">
-            <h3>Sites Criados - Links Diretos</h3>
+            <h3><i class="fas fa-link"></i> Cases online — veja ao vivo</h3>
             <div class="sites-links-grid">
                 <a href="https://gabrielzortt.github.io/modelo-barbearia/" target="_blank" class="site-link">
-                    <i class="fas fa-external-link-alt"></i> Modelo Barbearia
+                    <i class="fas fa-scissors"></i> Barbearia Modelo
                 </a>
                 <a href="https://gabrielzortt.github.io/mgg/" target="_blank" class="site-link">
-                    <i class="fas fa-external-link-alt"></i> MGG
+                    <i class="fas fa-building"></i> MGG Consultoria
                 </a>
                 <a href="https://perfumesdagi.com.br/" target="_blank" class="site-link">
-                    <i class="fas fa-external-link-alt"></i> Perfumes da Gi
+                    <i class="fas fa-perfume"></i> Perfumes da Gi
                 </a>
                 <a href="https://git-hub-2203.github.io/Plantel/" target="_blank" class="site-link">
-                    <i class="fas fa-external-link-alt"></i> Plantel
+                    <i class="fas fa-users"></i> Plantel Esportes
                 </a>
             </div>
         </section>
+
+        <!-- Planos e Preços -->
         <div id="planos" class="price-section">
             <div class="price-header">
-                <h3><i class="fas fa-tag"></i> Investimento transparente</h3>
-                <p>Valor inicial de referência + taxas fixas anuais</p>
+                <h3><i class="fas fa-gem"></i> Investimento claro e justo</h3>
+                <p>Valores acessíveis e negociação aberta</p>
             </div>
             <div class="price-grid">
-                <!-- Card principal: Landing Page + domínio incluso? detalhe -->
                 <div class="price-card">
-                    <h4>Landing Page</h4>
-                    <div class="price-amount">R$400~800<small> Iniciais (pagamento único)</small></div>
-                    <p><i class="fas fa-gavel"></i> <strong>Passível de negociação</strong></p>
+                    <h4><i class="fas fa-file-alt"></i> Landing Page</h4>
+                    <div class="price-amount">R$ 400<span class="price-range">~800</span><small>pagamento único</small>
+                    </div>
+                    <p><span class="badge-negociar"><i class="fas fa-handshake"></i> Negociável</span></p>
                     <ul>
-                        <li><i class="fas fa-check-circle"></i> Design personalizado (cores da sua marca)</li>
-                        <li><i class="fas fa-check-circle"></i> Layout responsivo e otimizado</li>
-                        <li><i class="fas fa-check-circle"></i> Entrega em até 7 dias úteis ou mais</li>
+                        <li><i class="fas fa-check-circle"></i> Design exclusivo alinhado à sua marca</li>
+                        <li><i class="fas fa-check-circle"></i> 100% responsivo e otimizado</li>
+                        <li><i class="fas fa-check-circle"></i> Entrega em até 7 dias úteis</li>
+                        <li><i class="fas fa-check-circle"></i> Código limpo e performance</li>
                     </ul>
                     <div class="negociacao">
-                        <i class="fas fa-hand-holding-usd"></i> <strong>Negociação:</strong> Aceitamos propostas,
-                        parcelamento ou troca de serviços — vale conversar!
+                        <i class="fas fa-hand-holding-usd"></i> <strong>Negociação flexível:</strong> Parcelamento,
+                        troca de serviços ou proposta personalizada — vamos conversar!
                     </div>
                 </div>
-                <!-- Domínio + manutenção card -->
                 <div class="price-card">
                     <h4><i class="fas fa-globe"></i> Domínio + Manutenção</h4>
                     <div class="price-amount">Taxas anuais fixas</div>
                     <ul>
-                        <li><i class="fas fa-check-circle"></i> <strong>Registro de domínio (.br)</strong>R$40,00/ano
+                        <li><i class="fas fa-check-circle"></i> <strong>Registro de domínio (.br)</strong> R$40,00/ano
                         </li>
-                        <li><i class="fas fa-check-circle"></i> <strong>Administração e manutenção da
-                                página</strong>R$80,00/mês</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Manutenção + hospedagem</strong> R$80,00/mês
+                        </li>
+                        <li><i class="fas fa-check-circle"></i> Atualizações e suporte técnico</li>
+                        <li><i class="fas fa-check-circle"></i> Backup e segurança</li>
                     </ul>
-                    <p style="color: var(--deep-blue);"><strong>Compra do domínio em:</strong></p>
-                    <a href="https://registro.br/" target="_blank"><img src="registro.png"
-                            style="width: 50%; padding-top: 20px;"></a>
+                    <a href="https://registro.br/" target="_blank" class="domain-link">
+                        <img src="registro.png" alt="Registro.br">
+                    </a>
                     <div class="tax-detail">
-                        <i class="fas fa-info-circle"></i> A taxa de domínio é cobrada diretamente pelo registro.br.
-                        Nossa taxa de admin + manutenção cobre nossa gestão técnica.
+                        <i class="fas fa-info-circle"></i> Taxa de domínio cobrada diretamente pelo registro.br. Nossa
+                        taxa cobre gestão técnica, renew e pequenas alterações.
                     </div>
                 </div>
             </div>
 
-            <!-- CTA + Negociação explícita (taxa fixa anual) -->
+            <!-- CTA Contato -->
             <div id="contato" class="cta-section">
-                <h3><i class="fas fa-handshake"></i> Vamos negociar seu projeto?</h3>
-                <p>O valor inicial é de <strong>R$400,00</strong>, mas estamos abertos a conversas! Entre em contato,
-                    conte sua ideia e ajustamos os valores de acordo com seu orçamento.<br>
-                    <strong>Taxa fixa anual de domínio: R$40,00/ano | Taxa admin + manutenção: R$ 80/mês.</strong>
+                <h3><i class="fas fa-handshake"></i> Vamos construir seu projeto?</h3>
+                <p>O valor inicial é de <strong>R$400,00</strong> (negociável). Estamos abertos a conversar sobre
+                    orçamento, prazos e necessidades específicas.<br>
+                    <strong>Domínio: R$40,00/ano | Manutenção: R$80/mês</strong>
                 </p>
-                <br>
-                <hr style="width: 60%; margin: auto;">
-                <p style="margin-top: 1.2rem; font-size: 0.85rem;"><i class="fab fa-whatsapp"></i> 92 98406-6727
-                    (WhatsApp) | Pedro Nascimento</p>
-                <p style="margin-top: 1.2rem; font-size: 0.85rem;"><i class="fab fa-whatsapp"></i> 92 99427-4276
-                    (WhatsApp) | Gabriel Zorzetti</p>
+                <hr>
+                <p><i class="fab fa-whatsapp"></i> <strong>(92) 98406-6727</strong> - Pedro Nascimento</p>
+                <p><i class="fab fa-whatsapp"></i> <strong>(92) 99427-4276</strong> - Gabriel Zorzetti</p>
+                <button id="openNegotiateBtn" class="btn"><i class="fas fa-comment-dollar"></i> Quero negociar
+                    agora</button>
             </div>
         </div>
 
-        <script>
-            // Modal handling for negotiation button
-            const modal = document.getElementById('negotiateModal');
-            const openBtn = document.getElementById('openNegotiateBtn');
-            const closeBtn = document.getElementById('closeModalBtn');
-            const submitMock = document.getElementById('submitMockBtn');
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 Stewart Devs - Criando presença digital que vende.</p>
+            <p><i class="fas fa-heart" style="color: var(--warm-copper);"></i> Transparência e resultados</p>
+        </footer>
+    </div>
 
-            function openModal() {
-                if (modal) modal.style.display = 'flex';
-            }
-            function closeModal() {
-                if (modal) modal.style.display = 'none';
-            }
+    <!-- Modal de Negociação -->
+    <div id="negotiateModal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-modal" id="closeModalBtn">&times;</button>
+            <h3 style="margin-bottom: 20px;"><i class="fas fa-comments"></i> Vamos conversar!</h3>
+            <p>Deixe seus dados e retornamos com uma proposta sob medida.</p>
+            <form id="fakeForm">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="E-mail para contato">
+                <textarea rows="3" placeholder="Conte sua ideia ou orçamento pretendido..."></textarea>
+                <button type="button" id="submitMockBtn" class="btn-modal">Enviar proposta <i
+                        class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
 
-            if (openBtn) openBtn.addEventListener('click', (e) => {
-                e.preventDefault();
-                openModal();
-            });
-            if (closeBtn) closeBtn.addEventListener('click', closeModal);
-            if (submitMock) {
-                submitMock.addEventListener('click', () => {
-                    alert('Obrigado! Retornamos em breve com uma contraproposta personalizada. 🧡 \n(Equipe Stewart Devs)');
-                    closeModal();
-                    // Limpar campos opcional
-                    const form = document.getElementById('fakeForm');
-                    if (form) form.reset();
-                });
-            }
-            // fechar clicando fora do modal
-            window.addEventListener('click', (e) => {
-                if (modal && e.target === modal) {
-                    closeModal();
-                }
-            });
-            // smooth scroll para links internos
-            document.querySelectorAll('.nav-links a, .btn[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    const hash = this.getAttribute('href');
-                    if (hash && hash !== '#') {
-                        const target = document.querySelector(hash);
-                        if (target) {
-                            e.preventDefault();
-                            target.scrollIntoView({ behavior: 'smooth' });
-                        }
-                    }
-                });
-            });
-        </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
