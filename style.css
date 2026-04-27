@@ -189,7 +189,6 @@ a[target="_blank"]::after {
 .hero-image i {
     font-size: clamp(2.8rem, 10vw, 6rem);
     color: var(--deep-blue);
-    background: rgba(255, 255, 255, 0.08);
     padding: 12px;
     border-radius: 60px;
     margin: 0 6px;
@@ -640,6 +639,77 @@ a[target="_blank"]::after {
     border-radius: 10px;
 }
 
+.contact-list {
+    display: grid;
+    gap: 14px;
+    max-width: 760px;
+    margin: 24px auto 0;
+    text-align: left;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 18px 20px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    color: var(--white);
+    box-shadow: 0 14px 24px rgba(7, 19, 38, 0.16);
+    backdrop-filter: blur(8px);
+}
+
+.contact-item:hover {
+    color: var(--white);
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.14);
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 18px 28px rgba(7, 19, 38, 0.22);
+}
+
+.contact-item::after {
+    content: '';
+}
+
+.contact-icon {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #20c863, #0e9f4c);
+    color: white;
+    font-size: 1.45rem;
+    box-shadow: 0 10px 18px rgba(14, 159, 76, 0.28);
+}
+
+.contact-text {
+    display: grid;
+    gap: 2px;
+}
+
+.contact-text small {
+    font-size: 0.74rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.contact-text strong {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--white);
+}
+
+.contact-text span {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.92);
+}
+
 .cta-section .btn {
     background: var(--warm-copper);
     color: white;
@@ -793,5 +863,26 @@ footer {
 
     .site-link:last-child {
         border-bottom: none;
+    }
+
+    .cta-section {
+        padding: 40px 22px;
+        border-radius: 34px;
+    }
+
+    .contact-item {
+        align-items: flex-start;
+        padding: 16px;
+    }
+
+    .contact-icon {
+        width: 46px;
+        height: 46px;
+        font-size: 1.3rem;
+    }
+
+    .contact-text strong,
+    .contact-text span {
+        line-height: 1.3;
     }
 }
